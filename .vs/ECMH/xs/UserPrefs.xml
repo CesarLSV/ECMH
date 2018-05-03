@@ -1,9 +1,5 @@
 ﻿<Properties StartupConfiguration="{668E8ABB-E04E-444E-89B1-141A1AE235FD}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ECMH/ECMH.iOS/Resources/LaunchScreen.storyboard">
-    <Files>
-      <File FileName="ECMH/ECMH.iOS/Resources/LaunchScreen.storyboard" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
