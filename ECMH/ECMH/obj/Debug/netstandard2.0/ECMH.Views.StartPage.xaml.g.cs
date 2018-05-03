@@ -11,7 +11,7 @@
 namespace ECMH.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Z:\\Proyectos_2018\\Movil\\App\\ECMH\\ECMH\\ECMH\\Views\\StartPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/monitor/Documents/CL/ECMH/ECMH/ECMH/Views/StartPage.xaml")]
     public partial class StartPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

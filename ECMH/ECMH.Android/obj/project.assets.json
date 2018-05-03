@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "MonoAndroid,Version=v7.1": {
+    "MonoAndroid,Version=v8.1": {
       "CommonServiceLocator/2.0.2": {
         "type": "package",
         "compile": {
@@ -858,7 +858,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "MonoAndroid,Version=v7.1": [
+    "MonoAndroid,Version=v8.1": [
       "ECMH >= 1.0.0",
       "Xamarin.Android.Support.Design >= 25.4.0.2",
       "Xamarin.Android.Support.v4 >= 25.4.0.2",
@@ -869,70 +869,62 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\clopez\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
+    "/Users/monitor/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\Proyectos_2018\\Movil\\App\\ECMH\\ECMH\\ECMH.Android\\ECMH.Android.csproj",
+      "projectUniqueName": "/Users/monitor/Documents/CL/ECMH/ECMH/ECMH.Android/ECMH.Android.csproj",
       "projectName": "ECMH.Android",
-      "projectPath": "Z:\\Proyectos_2018\\Movil\\App\\ECMH\\ECMH\\ECMH.Android\\ECMH.Android.csproj",
-      "packagesPath": "C:\\Users\\clopez\\.nuget\\packages\\",
-      "outputPath": "Z:\\Proyectos_2018\\Movil\\App\\ECMH\\ECMH\\ECMH.Android\\obj\\",
+      "projectPath": "/Users/monitor/Documents/CL/ECMH/ECMH/ECMH.Android/ECMH.Android.csproj",
+      "packagesPath": "/Users/monitor/.nuget/packages/",
+      "outputPath": "/Users/monitor/Documents/CL/ECMH/ECMH/ECMH.Android/obj",
       "projectStyle": "PackageReference",
-      "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\clopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "/Users/monitor/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "monoandroid71"
+        "monoandroid81"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "monoandroid71": {
+        "monoandroid81": {
           "projectReferences": {
-            "Z:\\Proyectos_2018\\Movil\\App\\ECMH\\ECMH\\ECMH\\ECMH.csproj": {
-              "projectPath": "Z:\\Proyectos_2018\\Movil\\App\\ECMH\\ECMH\\ECMH\\ECMH.csproj"
+            "/Users/monitor/Documents/CL/ECMH/ECMH/ECMH/ECMH.csproj": {
+              "projectPath": "/Users/monitor/Documents/CL/ECMH/ECMH/ECMH/ECMH.csproj"
             }
           }
         }
       }
     },
     "frameworks": {
-      "monoandroid71": {
+      "monoandroid81": {
         "dependencies": {
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "2.5.0.280555"
+          },
           "Xamarin.Android.Support.Design": {
             "target": "Package",
-            "version": "[25.4.0.2, )"
-          },
-          "Xamarin.Android.Support.v4": {
-            "target": "Package",
-            "version": "[25.4.0.2, )"
+            "version": "25.4.0.2"
           },
           "Xamarin.Android.Support.v7.AppCompat": {
             "target": "Package",
-            "version": "[25.4.0.2, )"
+            "version": "25.4.0.2"
+          },
+          "Xamarin.Android.Support.v4": {
+            "target": "Package",
+            "version": "25.4.0.2"
           },
           "Xamarin.Android.Support.v7.CardView": {
             "target": "Package",
-            "version": "[25.4.0.2, )"
+            "version": "25.4.0.2"
           },
           "Xamarin.Android.Support.v7.MediaRouter": {
             "target": "Package",
-            "version": "[25.4.0.2, )"
-          },
-          "Xamarin.Forms": {
-            "target": "Package",
-            "version": "[2.5.0.280555, )"
+            "version": "25.4.0.2"
           }
         }
       }
