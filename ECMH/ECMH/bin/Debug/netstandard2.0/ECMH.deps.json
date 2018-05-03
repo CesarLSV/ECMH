@@ -1,7 +1,11 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
+<<<<<<< HEAD
     "signature": "2980b4518a061bdefb17abe480de7fe5513c6831"
+=======
+    "signature": "015e974ef6ee7d1b1b8e3a61bfa460cf66342ff9"
+>>>>>>> a5e138b760a2caf427fc9e23b632887cd602c7e4
   },
   "compilationOptions": {},
   "targets": {
@@ -9,7 +13,11 @@
     ".NETStandard,Version=v2.0/": {
       "ECMH/1.0.0": {
         "dependencies": {
+<<<<<<< HEAD
           "MvvmLightLibs": "5.4.1",
+=======
+          "MvvmLightLibs": "5.3.0",
+>>>>>>> a5e138b760a2caf427fc9e23b632887cd602c7e4
           "NETStandard.Library": "2.0.1",
           "Xamarin.Forms": "2.5.0.280555"
         },
@@ -18,7 +26,11 @@
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
+<<<<<<< HEAD
       "MvvmLightLibs/5.4.1": {
+=======
+      "MvvmLightLibs/5.3.0": {
+>>>>>>> a5e138b760a2caf427fc9e23b632887cd602c7e4
         "runtime": {
           "lib/net45/GalaSoft.MvvmLight.Extras.dll": {},
           "lib/net45/GalaSoft.MvvmLight.Platform.dll": {},
@@ -53,12 +65,21 @@
       "path": "microsoft.netcore.platforms/1.1.0",
       "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
     },
+<<<<<<< HEAD
     "MvvmLightLibs/5.4.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-eh2cvxDG78CQ6tfkCAW9Y7H1lQ+iV8U+XI7WDXn8BoDhZrr43hDPJyEJwoZ1yeybEDnQTaiRTavlAxf6CHeNUg==",
       "path": "mvvmlightlibs/5.4.1",
       "hashPath": "mvvmlightlibs.5.4.1.nupkg.sha512"
+=======
+    "MvvmLightLibs/5.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h0/CPmYeYabbUfPdXGCJWdeiWGtTP7IVNz3GU6R3Jn3TFWkikCDOSYt/L9bmrroQnZFyosTWP2Gs0LDdTl311Q==",
+      "path": "mvvmlightlibs/5.3.0",
+      "hashPath": "mvvmlightlibs.5.3.0.nupkg.sha512"
+>>>>>>> a5e138b760a2caf427fc9e23b632887cd602c7e4
     },
     "NETStandard.Library/2.0.1": {
       "type": "package",
