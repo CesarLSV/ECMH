@@ -111,6 +111,9 @@
     <BundleResource Include="Resources\Icon-Small%402x.png" />
     <BundleResource Include="Resources\Icon-Small%403x.png" />
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <BundleResource Include="Resources\splash_320_480.png" />
+    <BundleResource Include="Resources\splash_640_960.png" />
+    <BundleResource Include="Resources\splash_640_1136.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -124,7 +127,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\ECMH\ECMH.csproj">
-      <Project>{646CDE98-4DD2-40C1-8A33-C29ED414E1C3}</Project>
+      <Project>{C5632E27-CE2C-41A1-A4D4-3CDC7189A746}</Project>
       <Name>ECMH</Name>
     </ProjectReference>
   </ItemGroup>
