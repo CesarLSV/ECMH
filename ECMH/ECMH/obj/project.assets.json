@@ -11,7 +11,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "MvvmLightLibs/5.4.1": {
+      "MvvmLightLibs/5.3.0": {
         "type": "package",
         "compile": {
           "lib/net45/GalaSoft.MvvmLight.Extras.dll": {},
@@ -74,10 +74,10 @@
         "runtime.json"
       ]
     },
-    "MvvmLightLibs/5.4.1": {
-      "sha512": "eh2cvxDG78CQ6tfkCAW9Y7H1lQ+iV8U+XI7WDXn8BoDhZrr43hDPJyEJwoZ1yeybEDnQTaiRTavlAxf6CHeNUg==",
+    "MvvmLightLibs/5.3.0": {
+      "sha512": "h0/CPmYeYabbUfPdXGCJWdeiWGtTP7IVNz3GU6R3Jn3TFWkikCDOSYt/L9bmrroQnZFyosTWP2Gs0LDdTl311Q==",
       "type": "package",
-      "path": "mvvmlightlibs/5.4.1",
+      "path": "mvvmlightlibs/5.3.0",
       "files": [
         "lib/SL5/GalaSoft.MvvmLight.Extras.dll",
         "lib/SL5/GalaSoft.MvvmLight.Extras.pdb",
@@ -127,16 +127,6 @@
         "lib/portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10/GalaSoft.MvvmLight.XML",
         "lib/portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10/GalaSoft.MvvmLight.dll",
         "lib/portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10/GalaSoft.MvvmLight.pdb",
-        "lib/uap10.0/GalaSoft.MvvmLight.Extras.dll",
-        "lib/uap10.0/GalaSoft.MvvmLight.Extras.pdb",
-        "lib/uap10.0/GalaSoft.MvvmLight.Extras.xml",
-        "lib/uap10.0/GalaSoft.MvvmLight.Platform.dll",
-        "lib/uap10.0/GalaSoft.MvvmLight.Platform.pdb",
-        "lib/uap10.0/GalaSoft.MvvmLight.Platform.pri",
-        "lib/uap10.0/GalaSoft.MvvmLight.Platform.xml",
-        "lib/uap10.0/GalaSoft.MvvmLight.dll",
-        "lib/uap10.0/GalaSoft.MvvmLight.pdb",
-        "lib/uap10.0/GalaSoft.MvvmLight.xml",
         "lib/windows81/GalaSoft.MvvmLight.Extras.dll",
         "lib/windows81/GalaSoft.MvvmLight.Extras.pdb",
         "lib/windows81/GalaSoft.MvvmLight.Extras.xml",
@@ -185,7 +175,7 @@
         "lib/xamarin.ios10/GalaSoft.MvvmLight.XML",
         "lib/xamarin.ios10/GalaSoft.MvvmLight.dll",
         "lib/xamarin.ios10/GalaSoft.MvvmLight.pdb",
-        "mvvmlightlibs.5.4.1.nupkg.sha512",
+        "mvvmlightlibs.5.3.0.nupkg.sha512",
         "mvvmlightlibs.nuspec"
       ]
     },
@@ -507,7 +497,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "MvvmLightLibs >= 5.4.1",
+      "MvvmLightLibs >= 5.3.0",
       "NETStandard.Library >= 2.0.1",
       "Xamarin.Forms >= 2.5.0.280555"
     ]
@@ -559,7 +549,7 @@
           },
           "MvvmLightLibs": {
             "target": "Package",
-            "version": "5.4.1"
+            "version": "5.3.0"
           },
           "Xamarin.Forms": {
             "target": "Package",
@@ -579,7 +569,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'MvvmLightLibs 5.4.1' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'MvvmLightLibs 5.3.0' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
       "libraryId": "MvvmLightLibs",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"
