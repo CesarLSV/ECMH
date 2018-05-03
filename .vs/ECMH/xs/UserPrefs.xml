@@ -1,10 +1,15 @@
-﻿<Properties StartupConfiguration="{668E8ABB-E04E-444E-89B1-141A1AE235FD}|Default">
-  <MonoDevelop.Ide.Workbench />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+﻿<Properties StartupConfiguration="{32D2380C-A448-4397-BFB0-02BBA55F984D}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="ECMH/ECMH.iOS/Info.plist" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ECMH.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6CED66FD-6A8A-45B9-BB05-E619F593B18B" automaticSigning="False" />
   <MonoDevelop.Ide.ItemProperties.ECMH.Android PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
 </Properties>
