@@ -83,7 +83,7 @@
                 <StackLayout>
 
                     <Label
-                        Text="Visitanos..."
+                        Text="Siguenos..."
                         TextColor="Black"
                         HorizontalOptions="CenterAndExpand">
 
@@ -98,21 +98,23 @@
                 Orientation="Horizontal">
 
                
-
                 <Image
                 Source="twitter_logo.png"
-                WidthRequest="75">
-
+                WidthRequest="70">
                 </Image>
 
                 <Image
                 Source="facebook_logo.png"
                 WidthRequest="100">
-
                 </Image>
 
-               
-            </StackLayout>
+                <Image
+                Source="instagram.png"
+                WidthRequest="70">
+                </Image>
+
+
+                </StackLayout>
 
 
             <StackLayout

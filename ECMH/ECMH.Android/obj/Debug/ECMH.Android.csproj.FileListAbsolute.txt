@@ -109,6 +109,7 @@ Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.Android\obj\Debug\linksrc\GalaSoft.Mv
 Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.Android\obj\Debug\android\assets\GalaSoft.MvvmLight.dll.mdb
 Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.Android\obj\Debug\android\assets\GalaSoft.MvvmLight.Extras.dll.mdb
 Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.Android\obj\Debug\android\assets\GalaSoft.MvvmLight.Platform.dll.mdb
+Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.Android\obj\Debug\res\drawable\instagram.png
 Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.Android\bin\Debug\ECMH.Android.dll
 Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.Android\obj\Debug\linksrc\ECMH.pdb
 Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.Android\obj\Debug\linksrc\ECMH.Android.dll.mdb
