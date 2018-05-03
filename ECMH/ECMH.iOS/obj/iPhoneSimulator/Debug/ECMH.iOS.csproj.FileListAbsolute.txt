@@ -69,7 +69,6 @@ Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.iOS\obj\iPhoneSimulator\Debug\ECMH.iO
 Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.iOS\obj\iPhoneSimulator\Debug\ECMH.iOS.csproj.CopyComplete
 Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.iOS\obj\iPhoneSimulator\Debug\ECMH.iOS.exe
 Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.iOS\obj\iPhoneSimulator\Debug\ECMH.iOS.pdb
-Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.iOS\bin\iPhoneSimulator\Debug\CommonServiceLocator.dll
 Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.iOS\bin\iPhoneSimulator\Debug\GalaSoft.MvvmLight.Extras.dll
 Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.iOS\bin\iPhoneSimulator\Debug\GalaSoft.MvvmLight.Extras.pdb
 Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.iOS\bin\iPhoneSimulator\Debug\GalaSoft.MvvmLight.Platform.dll
@@ -87,3 +86,5 @@ Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.iOS\obj\iPhoneSimulator\Debug\optimiz
 Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.iOS\obj\iPhoneSimulator\Debug\optimized\splash_320_480.png
 Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.iOS\obj\iPhoneSimulator\Debug\optimized\splash_640_960.png
 Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.iOS\obj\iPhoneSimulator\Debug\optimized\splash_640_1136.png
+Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.iOS\bin\iPhoneSimulator\Debug\Microsoft.Practices.ServiceLocation.dll
+Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.iOS\bin\iPhoneSimulator\Debug\Microsoft.Practices.ServiceLocation.pdb

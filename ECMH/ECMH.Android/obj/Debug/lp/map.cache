@@ -29,3 +29,4 @@ GalaSoft.MvvmLight
 GalaSoft.MvvmLight.Extras
 GalaSoft.MvvmLight.Platform
 System.Resources.ResourceManager
+Microsoft.Practices.ServiceLocation
