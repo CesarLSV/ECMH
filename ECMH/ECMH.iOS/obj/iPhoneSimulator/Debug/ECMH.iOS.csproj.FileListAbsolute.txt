@@ -83,3 +83,7 @@ Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.iOS\obj\iPhoneSimulator\Debug\optimiz
 Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.iOS\obj\iPhoneSimulator\Debug\optimized\no.png
 Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.iOS\obj\iPhoneSimulator\Debug\optimized\si.png
 Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.iOS\obj\iPhoneSimulator\Debug\optimized\top1.png
+Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.iOS\obj\iPhoneSimulator\Debug\optimized\instagram.png
+Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.iOS\obj\iPhoneSimulator\Debug\optimized\splash_320_480.png
+Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.iOS\obj\iPhoneSimulator\Debug\optimized\splash_640_960.png
+Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.iOS\obj\iPhoneSimulator\Debug\optimized\splash_640_1136.png
