@@ -59,7 +59,7 @@
                 Grid.Row="0"
                 Grid.Column="0"
                 TextColor="White"
-                Text="Ingresar"
+                Text="Soy Alumno"
                     Command="{Binding StartCommand}"
                     IsEnabled="{Binding IsEnabled, Mode=TwoWay}"
                 VerticalOptions="CenterAndExpand">
@@ -72,7 +72,7 @@
                 BorderRadius="10"
                 Grid.Row="1"
                 Grid.Column="0"
-                Text="No"
+                Text="Admisiones"
                 IsEnabled="{Binding IsEnabled, Mode=TwoWay}">
             </Button>
                 
@@ -98,12 +98,26 @@
                 Orientation="Horizontal">
 
                
-                <Image
+                <!--<Image
                 Source="twitter_logo.png"
                 WidthRequest="70">
-                </Image>
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                            Tapped="OnImageNameTapped"
+                            NumberOfTapsRequired="1" /> 
+                        </Image.GestureRecognizers>
+                    
+                    </Image>-->
 
-                <Image
+                    <Image
+                Source="twitter_logo.png"
+                WidthRequest="70">
+                        
+
+                    </Image>
+
+
+                    <Image
                 Source="facebook_logo.png"
                 WidthRequest="100">
                 </Image>

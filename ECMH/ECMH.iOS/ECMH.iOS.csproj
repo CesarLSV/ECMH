@@ -152,13 +152,29 @@
     <BundleResource Include="Resources\instagram.png" />
   </ItemGroup>
   <ItemGroup>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo_58_58.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo_80_80.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo_120_120.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo_29_29.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo_40_40.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo_76_76.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo_152_152.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo_58_58.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo_80_80.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo_120_120.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo_29_29.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo_40_40.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo_76_76.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo_152_152.png">
+      <Visible>false</Visible>
+    </ImageAsset>
   </ItemGroup>
 </Project>

@@ -11,7 +11,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "MvvmLightLibs/5.3.0": {
+      "MvvmLightLibs/5.4.1": {
         "type": "package",
         "compile": {
           "lib/net45/GalaSoft.MvvmLight.Extras.dll": {},
@@ -74,10 +74,10 @@
         "runtime.json"
       ]
     },
-    "MvvmLightLibs/5.3.0": {
-      "sha512": "h0/CPmYeYabbUfPdXGCJWdeiWGtTP7IVNz3GU6R3Jn3TFWkikCDOSYt/L9bmrroQnZFyosTWP2Gs0LDdTl311Q==",
+    "MvvmLightLibs/5.4.1": {
+      "sha512": "eh2cvxDG78CQ6tfkCAW9Y7H1lQ+iV8U+XI7WDXn8BoDhZrr43hDPJyEJwoZ1yeybEDnQTaiRTavlAxf6CHeNUg==",
       "type": "package",
-      "path": "mvvmlightlibs/5.3.0",
+      "path": "mvvmlightlibs/5.4.1",
       "files": [
         "lib/SL5/GalaSoft.MvvmLight.Extras.dll",
         "lib/SL5/GalaSoft.MvvmLight.Extras.pdb",
@@ -88,12 +88,15 @@
         "lib/SL5/System.Windows.Interactivity.dll",
         "lib/monoandroid1/GalaSoft.MvvmLight.Extras.XML",
         "lib/monoandroid1/GalaSoft.MvvmLight.Extras.dll",
+        "lib/monoandroid1/GalaSoft.MvvmLight.Extras.dll.mdb",
         "lib/monoandroid1/GalaSoft.MvvmLight.Extras.pdb",
         "lib/monoandroid1/GalaSoft.MvvmLight.Platform.XML",
         "lib/monoandroid1/GalaSoft.MvvmLight.Platform.dll",
+        "lib/monoandroid1/GalaSoft.MvvmLight.Platform.dll.mdb",
         "lib/monoandroid1/GalaSoft.MvvmLight.Platform.pdb",
         "lib/monoandroid1/GalaSoft.MvvmLight.XML",
         "lib/monoandroid1/GalaSoft.MvvmLight.dll",
+        "lib/monoandroid1/GalaSoft.MvvmLight.dll.mdb",
         "lib/monoandroid1/GalaSoft.MvvmLight.pdb",
         "lib/net35/GalaSoft.MvvmLight.Extras.dll",
         "lib/net35/GalaSoft.MvvmLight.Extras.pdb",
@@ -127,6 +130,16 @@
         "lib/portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10/GalaSoft.MvvmLight.XML",
         "lib/portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10/GalaSoft.MvvmLight.dll",
         "lib/portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10/GalaSoft.MvvmLight.pdb",
+        "lib/uap10.0/GalaSoft.MvvmLight.Extras.dll",
+        "lib/uap10.0/GalaSoft.MvvmLight.Extras.pdb",
+        "lib/uap10.0/GalaSoft.MvvmLight.Extras.xml",
+        "lib/uap10.0/GalaSoft.MvvmLight.Platform.dll",
+        "lib/uap10.0/GalaSoft.MvvmLight.Platform.pdb",
+        "lib/uap10.0/GalaSoft.MvvmLight.Platform.pri",
+        "lib/uap10.0/GalaSoft.MvvmLight.Platform.xml",
+        "lib/uap10.0/GalaSoft.MvvmLight.dll",
+        "lib/uap10.0/GalaSoft.MvvmLight.pdb",
+        "lib/uap10.0/GalaSoft.MvvmLight.xml",
         "lib/windows81/GalaSoft.MvvmLight.Extras.dll",
         "lib/windows81/GalaSoft.MvvmLight.Extras.pdb",
         "lib/windows81/GalaSoft.MvvmLight.Extras.xml",
@@ -169,13 +182,15 @@
         "lib/wpa81/GalaSoft.MvvmLight.pdb",
         "lib/xamarin.ios10/GalaSoft.MvvmLight.Extras.XML",
         "lib/xamarin.ios10/GalaSoft.MvvmLight.Extras.dll",
+        "lib/xamarin.ios10/GalaSoft.MvvmLight.Extras.dll.mdb",
         "lib/xamarin.ios10/GalaSoft.MvvmLight.Extras.pdb",
         "lib/xamarin.ios10/GalaSoft.MvvmLight.Platform.XML",
         "lib/xamarin.ios10/GalaSoft.MvvmLight.Platform.dll",
         "lib/xamarin.ios10/GalaSoft.MvvmLight.XML",
         "lib/xamarin.ios10/GalaSoft.MvvmLight.dll",
+        "lib/xamarin.ios10/GalaSoft.MvvmLight.dll.mdb",
         "lib/xamarin.ios10/GalaSoft.MvvmLight.pdb",
-        "mvvmlightlibs.5.3.0.nupkg.sha512",
+        "mvvmlightlibs.5.4.1.nupkg.sha512",
         "mvvmlightlibs.nuspec"
       ]
     },
@@ -497,34 +512,39 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "MvvmLightLibs >= 5.3.0",
+      "MvvmLightLibs >= 5.4.1",
       "NETStandard.Library >= 2.0.1",
       "Xamarin.Forms >= 2.5.0.280555"
     ]
   },
   "packageFolders": {
-    "/Users/monitor/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\clopez\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/monitor/Documents/CL/ECMH/ECMH/ECMH/ECMH.csproj",
+      "projectUniqueName": "Z:\\Proyectos_2018\\Movil\\App\\ECMH\\ECMH\\ECMH\\ECMH.csproj",
       "projectName": "ECMH",
-      "projectPath": "/Users/monitor/Documents/CL/ECMH/ECMH/ECMH/ECMH.csproj",
-      "packagesPath": "/Users/monitor/.nuget/packages/",
-      "outputPath": "/Users/monitor/Documents/CL/ECMH/ECMH/ECMH/obj",
+      "projectPath": "Z:\\Proyectos_2018\\Movil\\App\\ECMH\\ECMH\\ECMH\\ECMH.csproj",
+      "packagesPath": "C:\\Users\\clopez\\.nuget\\packages\\",
+      "outputPath": "Z:\\Proyectos_2018\\Movil\\App\\ECMH\\ECMH\\ECMH\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/monitor/.config/NuGet/NuGet.Config"
+        "C:\\Users\\clopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -541,19 +561,19 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
+          "MvvmLightLibs": {
+            "target": "Package",
+            "version": "[5.4.1, )"
+          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0.1",
+            "version": "[2.0.1, )",
             "autoReferenced": true
-          },
-          "MvvmLightLibs": {
-            "target": "Package",
-            "version": "5.3.0"
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "2.5.0.280555"
+            "version": "[2.5.0.280555, )"
           }
         },
         "imports": [
@@ -569,7 +589,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'MvvmLightLibs 5.3.0' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'MvvmLightLibs 5.4.1' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
       "libraryId": "MvvmLightLibs",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"

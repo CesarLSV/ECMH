@@ -1,6 +1,10 @@
+CommonServiceLocator
 ECMH
-System.Runtime
 FormsViewGroup
+GalaSoft.MvvmLight
+GalaSoft.MvvmLight.Extras
+GalaSoft.MvvmLight.Platform
+System.Runtime
 Xamarin.Android.Support.Animated.Vector.Drawable
 Xamarin.Android.Support.Annotations
 Xamarin.Android.Support.Compat
@@ -23,10 +27,5 @@ Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 netstandard
 System.ComponentModel
-System.Reflection.Extensions
-CommonServiceLocator
-GalaSoft.MvvmLight
-GalaSoft.MvvmLight.Extras
-GalaSoft.MvvmLight.Platform
 System.Resources.ResourceManager
-Microsoft.Practices.ServiceLocation
+System.Reflection.Extensions

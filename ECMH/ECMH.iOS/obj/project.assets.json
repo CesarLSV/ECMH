@@ -2,19 +2,19 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
-      "CommonServiceLocator/1.3.0": {
+      "CommonServiceLocator/2.0.2": {
         "type": "package",
         "compile": {
-          "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll": {}
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
         },
         "runtime": {
-          "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll": {}
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
         }
       },
-      "MvvmLightLibs/5.3.0": {
+      "MvvmLightLibs/5.4.1": {
         "type": "package",
         "dependencies": {
-          "CommonServiceLocator": "1.3.0"
+          "CommonServiceLocator": "2.0.2"
         },
         "compile": {
           "lib/xamarin.ios10/GalaSoft.MvvmLight.Extras.dll": {},
@@ -154,7 +154,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "MvvmLightLibs": "5.3.0",
+          "MvvmLightLibs": "5.4.1",
           "Xamarin.Forms": "2.5.0.280555"
         },
         "compile": {
@@ -166,19 +166,19 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
-      "CommonServiceLocator/1.3.0": {
+      "CommonServiceLocator/2.0.2": {
         "type": "package",
         "compile": {
-          "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll": {}
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
         },
         "runtime": {
-          "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll": {}
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
         }
       },
-      "MvvmLightLibs/5.3.0": {
+      "MvvmLightLibs/5.4.1": {
         "type": "package",
         "dependencies": {
-          "CommonServiceLocator": "1.3.0"
+          "CommonServiceLocator": "2.0.2"
         },
         "compile": {
           "lib/xamarin.ios10/GalaSoft.MvvmLight.Extras.dll": {},
@@ -318,7 +318,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "MvvmLightLibs": "5.3.0",
+          "MvvmLightLibs": "5.4.1",
           "Xamarin.Forms": "2.5.0.280555"
         },
         "compile": {
@@ -330,19 +330,19 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
-      "CommonServiceLocator/1.3.0": {
+      "CommonServiceLocator/2.0.2": {
         "type": "package",
         "compile": {
-          "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll": {}
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
         },
         "runtime": {
-          "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll": {}
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
         }
       },
-      "MvvmLightLibs/5.3.0": {
+      "MvvmLightLibs/5.4.1": {
         "type": "package",
         "dependencies": {
-          "CommonServiceLocator": "1.3.0"
+          "CommonServiceLocator": "2.0.2"
         },
         "compile": {
           "lib/xamarin.ios10/GalaSoft.MvvmLight.Extras.dll": {},
@@ -482,7 +482,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "MvvmLightLibs": "5.3.0",
+          "MvvmLightLibs": "5.4.1",
           "Xamarin.Forms": "2.5.0.280555"
         },
         "compile": {
@@ -494,19 +494,19 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
-      "CommonServiceLocator/1.3.0": {
+      "CommonServiceLocator/2.0.2": {
         "type": "package",
         "compile": {
-          "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll": {}
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
         },
         "runtime": {
-          "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll": {}
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
         }
       },
-      "MvvmLightLibs/5.3.0": {
+      "MvvmLightLibs/5.4.1": {
         "type": "package",
         "dependencies": {
-          "CommonServiceLocator": "1.3.0"
+          "CommonServiceLocator": "2.0.2"
         },
         "compile": {
           "lib/xamarin.ios10/GalaSoft.MvvmLight.Extras.dll": {},
@@ -646,7 +646,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "MvvmLightLibs": "5.3.0",
+          "MvvmLightLibs": "5.4.1",
           "Xamarin.Forms": "2.5.0.280555"
         },
         "compile": {
@@ -659,22 +659,25 @@
     }
   },
   "libraries": {
-    "CommonServiceLocator/1.3.0": {
-      "sha512": "fbjO0SNwbOFPdwVfyqv+B7gIJ2CVBOFPKqn1mDDECK7KER8jFaOdcvroFYoAHa0ktPbxi5s+15qOLnA96f8GSA==",
+    "CommonServiceLocator/2.0.2": {
+      "sha512": "OeAz2cDGiQuaxpJ2pUm1xyZyklT2HgP5LHoumI0o/pcXdTweJMjKHu92JKa33pZRCrRI0DdPcE5MGHk6GCpDMQ==",
       "type": "package",
-      "path": "commonservicelocator/1.3.0",
+      "path": "commonservicelocator/2.0.2",
       "files": [
-        "commonservicelocator.1.3.0.nupkg.sha512",
+        "commonservicelocator.2.0.2.nupkg.sha512",
         "commonservicelocator.nuspec",
-        "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.XML",
-        "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll",
-        "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.pdb"
+        "lib/net40/CommonServiceLocator.dll",
+        "lib/net45/CommonServiceLocator.dll",
+        "lib/net47/CommonServiceLocator.dll",
+        "lib/netcoreapp1.0/CommonServiceLocator.dll",
+        "lib/netstandard1.0/CommonServiceLocator.dll",
+        "lib/netstandard2.0/CommonServiceLocator.dll"
       ]
     },
-    "MvvmLightLibs/5.3.0": {
-      "sha512": "h0/CPmYeYabbUfPdXGCJWdeiWGtTP7IVNz3GU6R3Jn3TFWkikCDOSYt/L9bmrroQnZFyosTWP2Gs0LDdTl311Q==",
+    "MvvmLightLibs/5.4.1": {
+      "sha512": "eh2cvxDG78CQ6tfkCAW9Y7H1lQ+iV8U+XI7WDXn8BoDhZrr43hDPJyEJwoZ1yeybEDnQTaiRTavlAxf6CHeNUg==",
       "type": "package",
-      "path": "mvvmlightlibs/5.3.0",
+      "path": "mvvmlightlibs/5.4.1",
       "files": [
         "lib/SL5/GalaSoft.MvvmLight.Extras.dll",
         "lib/SL5/GalaSoft.MvvmLight.Extras.pdb",
@@ -685,12 +688,15 @@
         "lib/SL5/System.Windows.Interactivity.dll",
         "lib/monoandroid1/GalaSoft.MvvmLight.Extras.XML",
         "lib/monoandroid1/GalaSoft.MvvmLight.Extras.dll",
+        "lib/monoandroid1/GalaSoft.MvvmLight.Extras.dll.mdb",
         "lib/monoandroid1/GalaSoft.MvvmLight.Extras.pdb",
         "lib/monoandroid1/GalaSoft.MvvmLight.Platform.XML",
         "lib/monoandroid1/GalaSoft.MvvmLight.Platform.dll",
+        "lib/monoandroid1/GalaSoft.MvvmLight.Platform.dll.mdb",
         "lib/monoandroid1/GalaSoft.MvvmLight.Platform.pdb",
         "lib/monoandroid1/GalaSoft.MvvmLight.XML",
         "lib/monoandroid1/GalaSoft.MvvmLight.dll",
+        "lib/monoandroid1/GalaSoft.MvvmLight.dll.mdb",
         "lib/monoandroid1/GalaSoft.MvvmLight.pdb",
         "lib/net35/GalaSoft.MvvmLight.Extras.dll",
         "lib/net35/GalaSoft.MvvmLight.Extras.pdb",
@@ -724,6 +730,16 @@
         "lib/portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10/GalaSoft.MvvmLight.XML",
         "lib/portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10/GalaSoft.MvvmLight.dll",
         "lib/portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10/GalaSoft.MvvmLight.pdb",
+        "lib/uap10.0/GalaSoft.MvvmLight.Extras.dll",
+        "lib/uap10.0/GalaSoft.MvvmLight.Extras.pdb",
+        "lib/uap10.0/GalaSoft.MvvmLight.Extras.xml",
+        "lib/uap10.0/GalaSoft.MvvmLight.Platform.dll",
+        "lib/uap10.0/GalaSoft.MvvmLight.Platform.pdb",
+        "lib/uap10.0/GalaSoft.MvvmLight.Platform.pri",
+        "lib/uap10.0/GalaSoft.MvvmLight.Platform.xml",
+        "lib/uap10.0/GalaSoft.MvvmLight.dll",
+        "lib/uap10.0/GalaSoft.MvvmLight.pdb",
+        "lib/uap10.0/GalaSoft.MvvmLight.xml",
         "lib/windows81/GalaSoft.MvvmLight.Extras.dll",
         "lib/windows81/GalaSoft.MvvmLight.Extras.pdb",
         "lib/windows81/GalaSoft.MvvmLight.Extras.xml",
@@ -766,13 +782,15 @@
         "lib/wpa81/GalaSoft.MvvmLight.pdb",
         "lib/xamarin.ios10/GalaSoft.MvvmLight.Extras.XML",
         "lib/xamarin.ios10/GalaSoft.MvvmLight.Extras.dll",
+        "lib/xamarin.ios10/GalaSoft.MvvmLight.Extras.dll.mdb",
         "lib/xamarin.ios10/GalaSoft.MvvmLight.Extras.pdb",
         "lib/xamarin.ios10/GalaSoft.MvvmLight.Platform.XML",
         "lib/xamarin.ios10/GalaSoft.MvvmLight.Platform.dll",
         "lib/xamarin.ios10/GalaSoft.MvvmLight.XML",
         "lib/xamarin.ios10/GalaSoft.MvvmLight.dll",
+        "lib/xamarin.ios10/GalaSoft.MvvmLight.dll.mdb",
         "lib/xamarin.ios10/GalaSoft.MvvmLight.pdb",
-        "mvvmlightlibs.5.3.0.nupkg.sha512",
+        "mvvmlightlibs.5.4.1.nupkg.sha512",
         "mvvmlightlibs.nuspec"
       ]
     },
@@ -976,31 +994,39 @@
     ]
   },
   "packageFolders": {
-    "/Users/monitor/.nuget/packages/": {}
+    "C:\\Users\\clopez\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/monitor/Documents/CL/ECMH/ECMH/ECMH.iOS/ECMH.iOS.csproj",
+      "projectUniqueName": "Z:\\Proyectos_2018\\Movil\\App\\ECMH\\ECMH\\ECMH.iOS\\ECMH.iOS.csproj",
       "projectName": "ECMH.iOS",
-      "projectPath": "/Users/monitor/Documents/CL/ECMH/ECMH/ECMH.iOS/ECMH.iOS.csproj",
-      "packagesPath": "/Users/monitor/.nuget/packages/",
-      "outputPath": "/Users/monitor/Documents/CL/ECMH/ECMH/ECMH.iOS/obj",
+      "projectPath": "Z:\\Proyectos_2018\\Movil\\App\\ECMH\\ECMH\\ECMH.iOS\\ECMH.iOS.csproj",
+      "packagesPath": "C:\\Users\\clopez\\.nuget\\packages\\",
+      "outputPath": "Z:\\Proyectos_2018\\Movil\\App\\ECMH\\ECMH\\ECMH.iOS\\obj\\",
       "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
+      ],
       "configFilePaths": [
-        "/Users/monitor/.config/NuGet/NuGet.Config"
+        "C:\\Users\\clopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/monitor/Documents/CL/ECMH/ECMH/ECMH/ECMH.csproj": {
-              "projectPath": "/Users/monitor/Documents/CL/ECMH/ECMH/ECMH/ECMH.csproj"
+            "Z:\\Proyectos_2018\\Movil\\App\\ECMH\\ECMH\\ECMH\\ECMH.csproj": {
+              "projectPath": "Z:\\Proyectos_2018\\Movil\\App\\ECMH\\ECMH\\ECMH\\ECMH.csproj"
             }
           }
         }
@@ -1011,7 +1037,7 @@
         "dependencies": {
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "2.5.0.280555"
+            "version": "[2.5.0.280555, )"
           }
         }
       }

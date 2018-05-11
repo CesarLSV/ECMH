@@ -1,8 +1,0 @@
-Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
-Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
-Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
-Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
-Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
-Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.iOS\obj\iPhone\Debug\optimized\
-Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.iOS\obj\iPhone\Debug\ECMH.iOS.csprojResolveAssemblyReference.cache
-Z:\Proyectos_2018\Movil\App\ECMH\ECMH\ECMH.iOS\obj\iPhone\Debug\ECMH.iOS.csproj.CoreCompileInputs.cache
